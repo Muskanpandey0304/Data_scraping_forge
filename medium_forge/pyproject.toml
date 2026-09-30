@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medium-scraper"
+version = "0.1.1"
+description = "High-scale Medium scraper with HTML-to-PDF/Markdown and Excel batch scraping"
+authors = [{ name = "Muskan Pandey", email = "muskanpandey0304@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "curl_cffi",
+  "beautifulsoup4>=4.12.0",
+  "ua_generator",
+  "xhtml2pdf>=0.2.10",
+  "openpyxl>=3.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["medium_scraper*"] 

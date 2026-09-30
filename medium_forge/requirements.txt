@@ -1,0 +1,6 @@
+curl_cffi
+beautifulsoup4
+ua_generator
+xhtml2pdf
+openpyxl
+

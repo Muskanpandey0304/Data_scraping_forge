@@ -1,0 +1,97 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Scraper Logs & Tracking Files
+# ==========================================
+*.log
+scraper.log
+scraper_*.log
+repo_progress.jsonl
+failures.jsonl
+repo_state/
+crawl_progress.json
+session_cookies.json
+content_hash_index.json
+content_hashes.txt
+scraped_urls*.txt
+audit_progress_*.txt
+
+# ==========================================
+# Scraped Output Directories & Large Dumps
+# ==========================================
+output/
+scraped_resources/
+scraped_research/
+part3_new/
+Gap_Data/
+GIT_Top_1000/
+medium/
+video_staging/
+video_transcripts/
+ctf_structured/
+executables/
+
+# ==========================================
+# Databases & Local Cache
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+cache.db
+
+# ==========================================
+# Credentials & Secrets (Never commit)
+# ==========================================
+.env
+.env.*
+proxies.json
+tokens.txt
+secrets.json
+github_token.txt
+
+# ==========================================
+# Distribution / Packaging
+# ==========================================
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# IDE & Operating System Artifacts
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
